@@ -6,8 +6,18 @@
     <link rel="stylesheet" href="style.css">
     <style>
         @font-face {
-            font-family: "Astralaga-Reg";
-            src: url('./files/fonts/Astralaga_Regular.ttf');
+            font-family: "ArcadeNormal";
+            src: url('./files/fonts/ARCADE_N.TTF');
+        }
+
+        @font-face {
+            font-family: "IBM-Plex-Serif-Medium";
+            src: url("./files/fonts/IBMPlexSerif-Medium.ttf") ;
+        }
+
+        @font-face {
+            font-family: 'AthensClassic';
+            src: url('./files/fonts/AthensClassic.ttf');
         }
     </style>
 </head>
@@ -15,7 +25,10 @@
 <body>
 <div id="colorsplit1" class="colorsplit">
     <div id="header-sec">
-        <div id="header-logo" class="header-in">Header logo</div>
+        <div id="header-logo" class="header-in">
+            <img id="lens-blur-logo" src="files/other/lens_blur_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            <p id="header-text">PhotoProg</p>
+        </div>
         <div id="header-links" class="header-in">
             <a>1</a>
             <a>2</a>
@@ -28,7 +41,7 @@
         <div id="intro-textbox">
             <p id="intro-title"> The Power Of The Camera.<p>
             <p id="intro-subtitle"> The Ability to capture a moment in Time.</p>
-            <buttton id="intro-button"> (⌐■_■) Details. </button>
+            <button id="intro-button"> (⌐■_■) Details. </button>
         </div>
         <img
         id="intro-image"
@@ -40,6 +53,20 @@
     <div id="info-sec">
         <!--Images/Illustrations with some subtext next to them.
             Has a title like thing.-->
+        <div class="info-block">
+            <img class="info-image" src="files/images/flute_edited.JPG" alt="this is a flower."> 
+            <p class="infotextblock"> IS0 : 200 <br> 44mm <br> f10 <br> 1/60s</p>
+        </div>
+
+        <div class="info-block">
+            <img  class="info-image" src="files/images/mirror.JPG" alt="">
+            <p class="infotextblock"> IS0 : 800 <br> 23mm <br> f7.1 <br> 1/15s</p>
+        </div>
+
+        <div class="info-block">
+            <img  class="info-image" src="files/images/rose_overshot.JPG" alt="">
+            <p class="infotextblock"> IS0 : 1600 <br> 37mm <br> f7.1 <br> 1/15s</p>
+        </div>
     </div>
 
     <div id="quote-sec">
